@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\huaching-parking-app\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\huaching-parking-app\\pullRefresh_library\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\huaching-parking-app\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\huaching-parking-app\\pullRefresh_library\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\huaching-parking-app\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\huaching-parking-app\\pullRefresh_library\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    }
+]

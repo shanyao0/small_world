@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\huaching-parking-app\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\huaching-parking-app\\pullRefresh_library\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\huaching-parking-app\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\huaching-parking-app\\pullRefresh_library\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\myprogram\\myproject\\small_world\\pullRefresh_library\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    }
+]
