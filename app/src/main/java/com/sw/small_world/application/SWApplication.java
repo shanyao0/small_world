@@ -25,6 +25,7 @@ public class SWApplication extends Application {
         return mContext;
     }
 
+
     /**
      * 获取全局的主线程的handler
      */
