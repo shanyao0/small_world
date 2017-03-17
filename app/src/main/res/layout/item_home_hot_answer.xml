@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sw.small_world.widgets.CircleImageView
+        android:id="@+id/hot_answer_portrait"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginTop="@dimen/margin_big"
+        android:src="@drawable/u45" />
+
+    <TextView
+        android:id="@+id/hot_answer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/hot_answer_portrait"
+        android:text="王康"
+        android:textColor="@color/text_color_mid"
+        android:textSize="@dimen/text_size_small" />
+    <TextView
+        android:background="@drawable/shouye_diqiu"
+        android:id="@+id/hot_answer_deep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/hot_answer_name"
+        android:text="4.0"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/hot_answer_time"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hot_answer_name"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_toRightOf="@+id/hot_answer_portrait"
+        android:text="2016-06-11  16:40"
+        android:textColor="@color/text_color_mid"
+        android:textSize="@dimen/text_size_small" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shouye_shoucang"
+        android:layout_marginTop="@dimen/margin_big"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:id="@+id/hot_answer_question"
+        android:layout_below="@+id/hot_answer_portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginTop="13dp"
+        android:text="作为专职的心里咨询师，你每天是怎么学习的，这样有什么进展"
+        android:textColor="@color/text_color_big"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/hot_answer_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hot_answer_question"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="作为专职的心里咨询师，你每天是怎么学习作为专职的心里咨询师，你每天是怎么学习的，这样有作为专职的心里咨询师，你每天是怎么学习的，这样有的，这样有什么进展"
+        android:textColor="@color/text_color_mid"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/hot_answer_see_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hot_answer_answer"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="12dp"
+        android:text="浏览100"
+        android:textColor="@color/main_theme_color"
+        android:textSize="11dp" />
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/margin_horizontal"
+        android:background="@color/grey_line"/>
+</RelativeLayout>

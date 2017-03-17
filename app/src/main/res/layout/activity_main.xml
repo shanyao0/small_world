@@ -2,36 +2,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_theme"
+    android:background="#f5f5f5"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bg_theme"
+        android:background="#f5f5f5"
         android:orientation="vertical">
-    <!--actionBar-->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/action_bar_height"
-        android:background="@color/main_theme_color"
-        android:gravity="center_vertical">
 
         <TextView
-            android:id="@+id/home_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/app_name"
-            android:textColor="@color/white"
-            android:textSize="@dimen/text_size_big" />
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/main_theme_color" />
 
-    </RelativeLayout>
-    <!--ViewPager-->
-    <com.sw.small_world.widgets.NoScrollViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        <!--ViewPager-->
+        <com.sw.small_world.widgets.NoScrollViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
         <RadioGroup
             android:id="@+id/radio_group"
@@ -54,8 +44,8 @@
                 android:text="小世界" />
 
             <RadioButton
-                android:clickable="false"
                 style="@style/radioButton"
+                android:clickable="false"
                 android:drawableTop="@drawable/selector_bottom_small_world"
                 android:text="发布" />
 
@@ -72,12 +62,13 @@
                 android:text="我的" />
         </RadioGroup>
     </LinearLayout>
+
     <ImageView
         android:id="@+id/bottom_publish"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="25dp"
-        android:src="@drawable/shouye_fabu"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/shouye_fabu" />
 </RelativeLayout>

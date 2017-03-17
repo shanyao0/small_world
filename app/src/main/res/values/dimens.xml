@@ -10,7 +10,7 @@
     <dimen name="margin_mid">10dp</dimen>
     <dimen name="margin_small">8dp</dimen>
     <dimen name="margin_smaller">4dp</dimen>
-    <dimen name="margin_horizontal">16dp</dimen>
+    <dimen name="margin_horizontal">15dp</dimen>
     <dimen name="margin_line">1dp</dimen>
     <dimen name="margin_1px">1px</dimen>
 

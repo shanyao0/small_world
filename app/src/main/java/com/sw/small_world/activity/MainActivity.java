@@ -17,10 +17,8 @@ import com.sw.small_world.widgets.NoScrollViewPager;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
-    @Bind(R.id.home_title)
-    TextView homeTitle;
     @Bind(R.id.viewpager)
     NoScrollViewPager viewpager;
     @Bind(R.id.bottom_home)
