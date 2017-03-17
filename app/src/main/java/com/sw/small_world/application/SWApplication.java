@@ -16,6 +16,7 @@ public class SWApplication extends Application {
         super.onCreate();
         mContext=this;
         mHandler=new Handler();
+
     }
 
     /**
