@@ -89,11 +89,10 @@ public class HomeFragment extends BaseListFragment<String> {
         if (convertView == null) {
             convertView = View.inflate(activity, R.layout.item_home_hot_answer, null);
             holder = new ViewHolder(convertView);
-            convertView.setTag(convertView);
+            convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-
         return convertView;
     }
 

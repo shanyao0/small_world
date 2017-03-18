@@ -45,6 +45,7 @@ public class MainActivity extends BaseActivity {
     private void initView() {
         viewpager.setCurrentItem(0);
         bottomHome.setChecked(true);
+        viewpager.setOffscreenPageLimit(10);
         viewpager.setAdapter(new MainPagerAdapter(getSupportFragmentManager()));
         bottomPublish.setOnClickListener(new View.OnClickListener() {
             @Override
